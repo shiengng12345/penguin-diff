@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "upstreamOrigins": [
+    {
+      "repository": "https://github.com/g-plane/pretty_yaml",
+      "revision": "8692d450e21b6dd8a573e561776e102cb5fdb171",
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/g-plane/pretty_yaml/8692d450e21b6dd8a573e561776e102cb5fdb171/LICENSE",
+      "gitBlobSHA1": "95f86bff9b18ff1001d56b4738993a6bdaef6e61",
+      "sourceTreeSHA1": "bbb75268fdddf275703adb49c0acfcb5b98fe15b",
+      "sha256": "2efe0331e360cdaa2701ae0b42fa1ce6002ee52675d648a0c49029b5f27eb734",
+      "bytes": 1073
+    },
+    {
+      "repository": "https://github.com/oxc-project/oxc",
+      "revision": "dfbc0d1ea752f021ba4a68e4703b3a9031082a46",
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/oxc-project/oxc/dfbc0d1ea752f021ba4a68e4703b3a9031082a46/LICENSE",
+      "gitBlobSHA1": "444bffc00e5190817c0092e5e6fde787102977d2",
+      "sourceTreeSHA1": "d99ab8c703bfeaa23dd170b5cf3859792c60b272",
+      "sha256": "95ced5ecf1133fbf41d409b5555c86c344f83f3b019926057ddbc07cfdcc27b3",
+      "bytes": 1119
+    },
+    {
+      "repository": "https://github.com/oxc-project/oxc-index-vec",
+      "revision": "8e09fe324eb6df02f56e4eacdfac958930300380",
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/oxc-project/oxc-index-vec/8e09fe324eb6df02f56e4eacdfac958930300380/LICENSE",
+      "gitBlobSHA1": "444bffc00e5190817c0092e5e6fde787102977d2",
+      "sourceTreeSHA1": "b09c78cd244cf1acf93cd879108353e4409508ce",
+      "sha256": "95ced5ecf1133fbf41d409b5555c86c344f83f3b019926057ddbc07cfdcc27b3",
+      "bytes": 1119
+    }
+  ]
+}

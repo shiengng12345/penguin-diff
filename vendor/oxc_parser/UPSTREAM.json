@@ -1,0 +1,20 @@
+{
+  "package": "oxc_parser",
+  "version": "0.152.0",
+  "source": "https://crates.io/crates/oxc_parser/0.152.0",
+  "unmodifiedSourceManifestSHA256": "556851354bd93d62dce1252d9d8e2d8778f81ce3ff8886e311bedc4c1f2195b0",
+  "modifiedUpstreamFiles": [
+    "src/cursor.rs",
+    "src/js/expression.rs",
+    "src/lib.rs"
+  ],
+  "licenseSource": "https://raw.githubusercontent.com/oxc-project/oxc/dfbc0d1ea752f021ba4a68e4703b3a9031082a46/LICENSE",
+  "licenseSHA256": "95ced5ecf1133fbf41d409b5555c86c344f83f3b019926057ddbc07cfdcc27b3",
+  "guardedCaller": "compare-core process() scoped 8 MiB thread",
+  "stackBudgetBytes": 6291456,
+  "panicUsedForBudget": false,
+  "cursorBudget": 3000000,
+  "patchSHA256": "26e5b50fb7cba597ea095d5dc8bd528614a8328ce18a2b9b4f3d1de30c35f46c",
+  "upstreamCommit": "dfbc0d1ea752f021ba4a68e4703b3a9031082a46",
+  "publishedFileCount": 53
+}

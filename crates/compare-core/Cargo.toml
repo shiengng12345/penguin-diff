@@ -1,0 +1,23 @@
+[package]
+name = "compare-core"
+version = "0.1.0"
+edition.workspace = true
+license.workspace = true
+
+[lib]
+crate-type = ["rlib", "staticlib"]
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+serde_json = { version = "1", features = ["arbitrary_precision"] }
+oxc_allocator = "=0.152.0"
+oxc_ast = "=0.152.0"
+oxc_parser = { version = "=0.152.0", default-features = false }
+oxc_span = "=0.152.0"
+pretty_yaml = "=0.6.0"
+yaml_parser = "=0.3.0"
+yaml-rust2 = "0.11"
+rowan = "0.16"
+
+
+dragonbox_ecma = { version = "=0.1.12", features = ["ecma"] }

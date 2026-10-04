@@ -1,0 +1,2239 @@
+{
+  "schemaVersion": 1,
+  "scope": "All locked third-party Cargo sources (including build/dev and platform-only packages) plus all pinned Swift checkouts. This inventory is not a statement that every component is linked in the App.",
+  "cargoLockSHA256": "1f9474fbb641398202b1c2d77f2297e748def557d1d4e11dffb42d74f16284a0",
+  "swiftResolvedSHA256": "b8bb72d8b796e057db8351444525707d3049a6f9062a8c694bc52eeb9dcb0d0d",
+  "components": [
+    {
+      "ecosystem": "rust",
+      "name": "allocator-api2",
+      "version": "0.2.21",
+      "declaredLicense": "MIT OR Apache-2.0",
+      "revision": "63cd7fcc2f8854b5821c7054d026e8a4647acde1",
+      "repository": "https://github.com/zakarumych/allocator-api2",
+      "files": [
+        {
+          "path": "rust/allocator-api2@0.2.21/LICENSE-APACHE",
+          "sha256": "20fe7b00e904ed690e3b9fd6073784d3fc428141dbd10b81c01fd143d0797f58",
+          "bytes": 9899,
+          "originPath": "LICENSE-APACHE",
+          "originKind": "cargoArchive"
+        },
+        {
+          "path": "rust/allocator-api2@0.2.21/LICENSE-MIT",
+          "sha256": "36516aefdc84c5d5a1e7485425913a22dbda69eb1930c5e84d6ae4972b5194b9",
+          "bytes": 1046,
+          "originPath": "LICENSE-MIT",
+          "originKind": "cargoArchive"
+        }
+      ]
+    },
+    {
+      "ecosystem": "rust",
+      "name": "arraydeque",
+      "version": "0.5.1",
+      "declaredLicense": "MIT/Apache-2.0",
+      "revision": "2ccf30574a2fac91311a0fca7b32f99d41f5680e",
+      "repository": "https://github.com/andylokandy/arraydeque",
+      "files": [
+        {
+          "path": "rust/arraydeque@0.5.1/LICENSE",
+          "sha256": "0aab2eeeaa27c8e946c235e5e605c6d52cb0a56d254c660bdcf618d6f7faf4af",
+          "bytes": 1101,
+          "originPath": "LICENSE",
+          "originKind": "cargoArchive"
+        }
+      ]
+    },
+    {
+      "ecosystem": "rust",
+      "name": "autocfg",
+      "version": "1.5.1",
+      "declaredLicense": "Apache-2.0 OR MIT",
+      "revision": "2799b09c24e6632f8e653c5cd8fc303e85a906ba",
+      "repository": "https://github.com/cuviper/autocfg",
+      "files": [
+        {
+          "path": "rust/autocfg@1.5.1/LICENSE-APACHE",
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+          "bytes": 10847,
+          "originPath": "LICENSE-APACHE",
+          "originKind": "cargoArchive"
+        },
+        {
+          "path": "rust/autocfg@1.5.1/LICENSE-MIT",
+          "sha256": "27995d58ad5c1145c1a8cd86244ce844886958a35eb2b78c6b772748669999ac",
+          "bytes": 1054,
+          "originPath": "LICENSE-MIT",
+          "originKind": "cargoArchive"
+        }
+      ]
+    },
+    {
+      "ecosystem": "rust",
+      "name": "bitflags",
+      "version": "2.13.2",
+      "declaredLicense": "MIT OR Apache-2.0",
+      "revision": "80ce9b545acb0bd42150695fc351889cac1d8eb4",
+      "repository": "https://github.com/bitflags/bitflags",
+      "files": [
+        {
+          "path": "rust/bitflags@2.13.2/LICENSE-APACHE",
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+          "bytes": 10847,
+          "originPath": "LICENSE-APACHE",
+          "originKind": "cargoArchive"
+        },
+        {
+          "path": "rust/bitflags@2.13.2/LICENSE-MIT",
+          "sha256": "6485b8ed310d3f0340bf1ad1f47645069ce4069dcc6bb46c7d5c6faf41de1fdb",
+          "bytes": 1071,
+          "originPath": "LICENSE-MIT",
+          "originKind": "cargoArchive"
+        }
+      ]
+    },
+    {
+      "ecosystem": "rust",
+      "name": "bytecount",
+      "version": "0.6.9",
+      "declaredLicense": "Apache-2.0/MIT",
+      "revision": "f06647f90a45ab302d9423dbe85019d595abf8c2",
+      "repository": "https://github.com/llogiq/bytecount",
+      "files": [
+        {
+          "path": "rust/bytecount@0.6.9/LICENSE.Apache2",
+          "sha256": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1",
+          "bytes": 11357,
+          "originPath": "LICENSE.Apache2",
+          "originKind": "cargoArchive"
+        },
+        {
+          "path": "rust/bytecount@0.6.9/LICENSE.MIT",
+          "sha256": "a5dea80c1f383cb5f80a6bb0da5e55a2beb9f24adb123ce6300af2cbaaa3bf65",
+          "bytes": 1068,
+          "originPath": "LICENSE.MIT",
+          "originKind": "cargoArchive"
+        }
+      ]
+    },
+    {
+      "ecosystem": "rust",
+      "name": "castaway",
+      "version": "0.2.4",
+      "declaredLicense": "MIT",
+      "revision": "c6cb7e3086001a01d976d27c76fb52da93214511",
+      "repository": "https://github.com/sagebind/castaway",
+      "files": [
+        {
+          "path": "rust/castaway@0.2.4/LICENSE",
+          "sha256": "f98e09091d5ae02b2f2ec1ead4f7f28c4c44d1cb98b078739ba67091637e170c",
+          "bytes": 1075,
+          "originPath": "LICENSE",
+          "originKind": "cargoArchive"
+        }
+      ]
+    },
+    {
+      "ecosystem": "rust",
+      "name": "cfg-if",
+      "version": "1.0.5",
+      "declaredLicense": "MIT OR Apache-2.0",
+      "revision": "8b0a2b0fc1fa3b3741b9e72895f390cf499fe36f",
+      "repository": "https://github.com/rust-lang/cfg-if",
+      "files": [
+        {
+          "path": "rust/cfg-if@1.0.5/LICENSE-APACHE",
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+          "bytes": 10847,
+          "originPath": "LICENSE-APACHE",
+          "originKind": "cargoArchive"
+        },
+        {
+          "path": "rust/cfg-if@1.0.5/LICENSE-MIT",
+          "sha256": "378f5840b258e2779c39418f3f2d7b2ba96f1c7917dd6be0713f88305dbda397",
+          "bytes": 1057,
+          "originPath": "LICENSE-MIT",
+          "originKind": "cargoArchive"
+        }
+      ]
+    },
+    {
+      "ecosystem": "rust",
+      "name": "compact_str",
+      "version": "0.10.0",
+      "declaredLicense": "MIT",
+      "revision": "9696af7f7a9451478766b19dedac7371594eee0d",
+      "repository": "https://github.com/ParkMyCar/compact_str",
+      "files": [
+        {
+          "path": "rust/compact_str@0.10.0/LICENSE",
+          "sha256": "0d52feec79589df30138dad3800323fe5686b764b73347330a2dfef8ac83efe8",
+          "bytes": 1073,
+          "originPath": "LICENSE",
+          "originKind": "cargoArchive"
+        }
+      ]
+    },
+    {
+      "ecosystem": "rust",
+      "name": "core_detect",
+      "version": "1.0.0",
+      "declaredLicense": "MIT/Apache-2.0",
+      "revision": "a0f957776563806e7d20978471676e0db72892ba",
+      "repository": "https://github.com/thomcc/core_detect",
+      "files": [
+        {
+          "path": "rust/core_detect@1.0.0/LICENSE-APACHE",
+          "sha256": "769f80b5bcb42ed0af4e4d2fd74e1ac9bf843cb80c5a29219d1ef3544428a6bb",
+          "bytes": 10846,
+          "originPath": "LICENSE-APACHE",
+          "originKind": "cargoArchive"
+        },
+        {
+          "path": "rust/core_detect@1.0.0/LICENSE-MIT",
+          "sha256": "8569ebf6bf52937b961d9c9c934d8400a2bb6b09651a9afacbb3fc18fe5c09b1",
+          "bytes": 1076,
+          "originPath": "LICENSE-MIT",
+          "originKind": "cargoArchive"
+        }
+      ]
+    },
+    {
+      "ecosystem": "rust",
+      "name": "countme",
+      "version": "3.0.1",
+      "declaredLicense": "MIT OR Apache-2.0",
+      "revision": "9e037c4293fb8ef6c1c632094349734955f06d89",
+      "repository": "https://github.com/matklad/countme",
+      "files": [
+        {
+          "path": "rust/countme@3.0.1/LICENSE-APACHE",
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+          "bytes": 10847,
+          "originPath": "LICENSE-APACHE",
+          "originKind": "cargoArchive"
+        },
+        {
+          "path": "rust/countme@3.0.1/LICENSE-MIT",
+          "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+          "bytes": 1023,
+          "originPath": "LICENSE-MIT",
+          "originKind": "cargoArchive"
+        }
+      ]
+    },
+    {
+      "ecosystem": "rust",
+      "name": "cow-utils",
+      "version": "0.1.3",
+      "declaredLicense": "MIT",
+      "revision": "7a6709e4e53b50566ac3d8f6252e340b58ad6a76",
+      "repository": "https://github.com/RReverser/cow-utils-rs",
+      "files": [
+        {
+          "path": "rust/cow-utils@0.1.3/LICENSE",
+          "sha256": "59033153d7f67e7b35123798831c5905a725ea84c9face9d91d0ae7e1de6228f",
+          "bytes": 1094,
+          "originPath": "LICENSE",
+          "originKind": "cargoArchive"
+        }
+      ]
+    },
+    {
+      "ecosystem": "rust",
+      "name": "displaydoc",
+      "version": "0.2.7",
+      "declaredLicense": "MIT OR Apache-2.0",
+      "revision": "20016487354a96b22a7b97974483ae4f51a1bddc",
+      "repository": "https://github.com/yaahc/displaydoc",
+      "files": [
+        {
+          "path": "rust/displaydoc@0.2.7/LICENSE-APACHE",
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+          "bytes": 10847,
+          "originPath": "LICENSE-APACHE",
+          "originKind": "cargoArchive"
+        },
+        {
+          "path": "rust/displaydoc@0.2.7/LICENSE-MIT",
+          "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+          "bytes": 1023,
+          "originPath": "LICENSE-MIT",
+          "originKind": "cargoArchive"
+        }
+      ]
+    },
+    {
+      "ecosystem": "rust",
+      "name": "dragonbox_ecma",
+      "version": "0.1.12",
+      "declaredLicense": "Apache-2.0 WITH LLVM-exception OR BSL-1.0",
+      "revision": "1eb76896e620708bc8b659284f115b6cc1c3a8a6",
+      "repository": "https://github.com/magic-akari/dragonbox",
+      "files": [
+        {
+          "path": "rust/dragonbox_ecma@0.1.12/LICENSE-Apache2-LLVM",
+          "sha256": "624d724f544656ff2f965b3b41e3050133fa042d80292a05330c786a12808cb9",
+          "bytes": 11068,
+          "originPath": "LICENSE-Apache2-LLVM",
+          "originKind": "cargoArchive"
+        },
+        {
+          "path": "rust/dragonbox_ecma@0.1.12/LICENSE-Boost",
+          "sha256": "c9bff75738922193e67fa726fa225535870d2aa1059f91452c411736284ad566",
+          "bytes": 1338,
+          "originPath": "LICENSE-Boost",
+          "originKind": "cargoArchive"
+        }
+      ]
+    },
+    {
+      "ecosystem": "rust",
+      "name": "encoding_rs",
+      "version": "0.8.42",
+      "declaredLicense": "(Apache-2.0 OR MIT) AND BSD-3-Clause",
+      "revision": "a155adc7271c9e507556d053c95b459186671d2a",
+      "repository": "https://github.com/hsivonen/encoding_rs",
+      "files": [
+        {
+          "path": "rust/encoding_rs@0.8.42/COPYRIGHT",
+          "sha256": "11789f45bb180841cd362a5eee6789c68ddb573a11105e30768c308a6add0190",
+          "bytes": 713,
+          "originPath": "COPYRIGHT",
+          "originKind": "cargoArchive"
+        },
+        {
+          "path": "rust/encoding_rs@0.8.42/LICENSE-APACHE",
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+          "bytes": 11358,
+          "originPath": "LICENSE-APACHE",
+          "originKind": "cargoArchive"
+        },
+        {
+          "path": "rust/encoding_rs@0.8.42/LICENSE-MIT",
+          "sha256": "3fa4ca83dcc9237839b1bdeb2e6d16bdfb5ec0c5ce42b24694d8bbf0dcbef72c",
+          "bytes": 1053,
+          "originPath": "LICENSE-MIT",
+          "originKind": "cargoArchive"
+        },
+        {
+          "path": "rust/encoding_rs@0.8.42/LICENSE-WHATWG",
+          "sha256": "838118388fe5c2e7f1dbbaeed13e1c7f3ebf88be91319c7c1d77c18e987d1a50",
+          "bytes": 1501,
+          "originPath": "LICENSE-WHATWG",
+          "originKind": "cargoArchive"
+        }
+      ]
+    },
+    {
+      "ecosystem": "rust",
+      "name": "fastrand",
+      "version": "2.5.0",
+      "declaredLicense": "Apache-2.0 OR MIT",
+      "revision": "7a1cc2c69ebde6cb3442809213db3fe19a2cb0ba",
+      "repository": "https://github.com/smol-rs/fastrand",
+      "files": [
+        {
+          "path": "rust/fastrand@2.5.0/LICENSE-APACHE",
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+          "bytes": 10847,
+          "originPath": "LICENSE-APACHE",
+          "originKind": "cargoArchive"
+        },
+        {
+          "path": "rust/fastrand@2.5.0/LICENSE-MIT",
+          "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+          "bytes": 1023,
+          "originPath": "LICENSE-MIT",
+          "originKind": "cargoArchive"
+        }
+      ]
+    },
+    {
+      "ecosystem": "rust",
+      "name": "foldhash",
+      "version": "0.2.0",
+      "declaredLicense": "Zlib",
+      "revision": "8f878c636fda9c9e93384824ea45e06d03f009f5",
+      "repository": "https://github.com/orlp/foldhash",
+      "files": [
+        {
+          "path": "rust/foldhash@0.2.0/LICENSE",
+          "sha256": "b1181a40b2a7b25cf66fd01481713bc1005df082c53ef73e851e55071b102744",
+          "bytes": 856,
+          "originPath": "LICENSE",
+          "originKind": "cargoArchive"
+        }
+      ]
+    },
+    {
+      "ecosystem": "rust",
+      "name": "hashbrown",
+      "version": "0.14.5",
+      "declaredLicense": "MIT OR Apache-2.0",
+      "revision": "025d0f58b62d074f5fd660a22fe293cdc237d589",
+      "repository": "https://github.com/rust-lang/hashbrown",
+      "files": [
+        {
+          "path": "rust/hashbrown@0.14.5/LICENSE-APACHE",
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+          "bytes": 10847,
+          "originPath": "LICENSE-APACHE",
+          "originKind": "cargoArchive"
+        },
+        {
+          "path": "rust/hashbrown@0.14.5/LICENSE-MIT",
+          "sha256": "ff8f68cb076caf8cefe7a6430d4ac086ce6af2ca8ce2c4e5a2004d4552ef52a2",
+          "bytes": 1060,
+          "originPath": "LICENSE-MIT",
+          "originKind": "cargoArchive"
+        }
+      ]
+    },
+    {
+      "ecosystem": "rust",
+      "name": "hashbrown",
+      "version": "0.16.1",
+      "declaredLicense": "MIT OR Apache-2.0",
+      "revision": "1876e4f02708b93903d55ef598f68e82a826518f",
+      "repository": "https://github.com/rust-lang/hashbrown",
+      "files": [
+        {
+          "path": "rust/hashbrown@0.16.1/LICENSE-APACHE",
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+          "bytes": 10847,
+          "originPath": "LICENSE-APACHE",
+          "originKind": "cargoArchive"
+        },
+        {
+          "path": "rust/hashbrown@0.16.1/LICENSE-MIT",
+          "sha256": "ff8f68cb076caf8cefe7a6430d4ac086ce6af2ca8ce2c4e5a2004d4552ef52a2",
+          "bytes": 1060,
+          "originPath": "LICENSE-MIT",
+          "originKind": "cargoArchive"
+        }
+      ]
+    },
+    {
+      "ecosystem": "rust",
+      "name": "hashbrown",
+      "version": "0.17.1",
+      "declaredLicense": "MIT OR Apache-2.0",
+      "revision": "c62a63a61b7caf2de8f9ecb7b06a66b0ab6bdf3d",
+      "repository": "https://github.com/rust-lang/hashbrown",
+      "files": [
+        {
+          "path": "rust/hashbrown@0.17.1/LICENSE-APACHE",
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+          "bytes": 10847,
+          "originPath": "LICENSE-APACHE",
+          "originKind": "cargoArchive"
+        },
+        {
+          "path": "rust/hashbrown@0.17.1/LICENSE-MIT",
+          "sha256": "ff8f68cb076caf8cefe7a6430d4ac086ce6af2ca8ce2c4e5a2004d4552ef52a2",
+          "bytes": 1060,
+          "originPath": "LICENSE-MIT",
+          "originKind": "cargoArchive"
+        }
+      ]
+    },
+    {
+      "ecosystem": "rust",
+      "name": "hashlink",
+      "version": "0.11.1",
+      "declaredLicense": "MIT OR Apache-2.0",
+      "revision": "fe151cc410a22009eb56157ce9ec101daad174ae",
+      "repository": "https://github.com/djc/hashlink",
+      "files": [
+        {
+          "path": "rust/hashlink@0.11.1/LICENSE-APACHE",
+          "sha256": "c144680885b29e4719e2a51f0aab5439a1e02d980692b5aaf086cae12727f28b",
+          "bytes": 10849,
+          "originPath": "LICENSE-APACHE",
+          "originKind": "cargoArchive"
+        },
+        {
+          "path": "rust/hashlink@0.11.1/LICENSE-MIT",
+          "sha256": "e915669a595b11a200873df8286561881b0e04932f6412a585db6297ba0bc97c",
+          "bytes": 1133,
+          "originPath": "LICENSE-MIT",
+          "originKind": "cargoArchive"
+        }
+      ]
+    },
+    {
+      "ecosystem": "rust",
+      "name": "icu_collections",
+      "version": "2.3.0",
+      "declaredLicense": "Unicode-3.0",
+      "revision": "a14f2dad852be26bad277ae704abf27a15cbfed1",
+      "repository": "https://github.com/unicode-org/icu4x",
+      "files": [
+        {
+          "path": "rust/icu_collections@2.3.0/LICENSE",
+          "sha256": "f367c1b8e1aa262435251e442901da4607b4650e0e63a026f5044473ecfb90f2",
+          "bytes": 2195,
+          "originPath": "LICENSE",
+          "originKind": "cargoArchive"
+        }
+      ]
+    },
+    {
+      "ecosystem": "rust",
+      "name": "icu_locale_core",
+      "version": "2.3.0",
+      "declaredLicense": "Unicode-3.0",
+      "revision": "a14f2dad852be26bad277ae704abf27a15cbfed1",
+      "repository": "https://github.com/unicode-org/icu4x",
+      "files": [
+        {
+          "path": "rust/icu_locale_core@2.3.0/LICENSE",
+          "sha256": "f367c1b8e1aa262435251e442901da4607b4650e0e63a026f5044473ecfb90f2",
+          "bytes": 2195,
+          "originPath": "LICENSE",
+          "originKind": "cargoArchive"
+        }
+      ]
+    },
+    {
+      "ecosystem": "rust",
+      "name": "icu_locale_fallback",
+      "version": "2.3.0",
+      "declaredLicense": "Unicode-3.0",
+      "revision": "a14f2dad852be26bad277ae704abf27a15cbfed1",
+      "repository": "https://github.com/unicode-org/icu4x",
+      "files": [
+        {
+          "path": "rust/icu_locale_fallback@2.3.0/LICENSE",
+          "sha256": "f367c1b8e1aa262435251e442901da4607b4650e0e63a026f5044473ecfb90f2",
+          "bytes": 2195,
+          "originPath": "LICENSE",
+          "originKind": "cargoArchive"
+        }
+      ]
+    },
+    {
+      "ecosystem": "rust",
+      "name": "icu_locale_fallback_data",
+      "version": "2.3.0",
+      "declaredLicense": "Unicode-3.0",
+      "revision": "a14f2dad852be26bad277ae704abf27a15cbfed1",
+      "repository": "https://github.com/unicode-org/icu4x",
+      "files": [
+        {
+          "path": "rust/icu_locale_fallback_data@2.3.0/LICENSE",
+          "sha256": "f367c1b8e1aa262435251e442901da4607b4650e0e63a026f5044473ecfb90f2",
+          "bytes": 2195,
+          "originPath": "LICENSE",
+          "originKind": "cargoArchive"
+        }
+      ]
+    },
+    {
+      "ecosystem": "rust",
+      "name": "icu_provider",
+      "version": "2.3.1",
+      "declaredLicense": "Unicode-3.0",
+      "revision": "898d79c69f37da7b45a15a5714663c9b59b3d928",
+      "repository": "https://github.com/unicode-org/icu4x",
+      "files": [
+        {
+          "path": "rust/icu_provider@2.3.1/LICENSE",
+          "sha256": "f367c1b8e1aa262435251e442901da4607b4650e0e63a026f5044473ecfb90f2",
+          "bytes": 2195,
+          "originPath": "LICENSE",
+          "originKind": "cargoArchive"
+        }
+      ]
+    },
+    {
+      "ecosystem": "rust",
+      "name": "icu_segmenter",
+      "version": "2.3.0",
+      "declaredLicense": "Unicode-3.0",
+      "revision": "a14f2dad852be26bad277ae704abf27a15cbfed1",
+      "repository": "https://github.com/unicode-org/icu4x",
+      "files": [
+        {
+          "path": "rust/icu_segmenter@2.3.0/LICENSE",
+          "sha256": "f367c1b8e1aa262435251e442901da4607b4650e0e63a026f5044473ecfb90f2",
+          "bytes": 2195,
+          "originPath": "LICENSE",
+          "originKind": "cargoArchive"
+        }
+      ]
+    },
+    {
+      "ecosystem": "rust",
+      "name": "icu_segmenter_data",
+      "version": "2.3.0",
+      "declaredLicense": "Unicode-3.0",
+      "revision": "a14f2dad852be26bad277ae704abf27a15cbfed1",
+      "repository": "https://github.com/unicode-org/icu4x",
+      "files": [
+        {
+          "path": "rust/icu_segmenter_data@2.3.0/LICENSE",
+          "sha256": "f367c1b8e1aa262435251e442901da4607b4650e0e63a026f5044473ecfb90f2",
+          "bytes": 2195,
+          "originPath": "LICENSE",
+          "originKind": "cargoArchive"
+        }
+      ]
+    },
+    {
+      "ecosystem": "rust",
+      "name": "itoa",
+      "version": "1.0.18",
+      "declaredLicense": "MIT OR Apache-2.0",
+      "revision": "af77385d0daf4d0e949e81f2588be2e44f69f086",
+      "repository": "https://github.com/dtolnay/itoa",
+      "files": [
+        {
+          "path": "rust/itoa@1.0.18/LICENSE-APACHE",
+          "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a",
+          "bytes": 9723,
+          "originPath": "LICENSE-APACHE",
+          "originKind": "cargoArchive"
+        },
+        {
+          "path": "rust/itoa@1.0.18/LICENSE-MIT",
+          "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+          "bytes": 1023,
+          "originPath": "LICENSE-MIT",
+          "originKind": "cargoArchive"
+        }
+      ]
+    },
+    {
+      "ecosystem": "rust",
+      "name": "litemap",
+      "version": "0.8.3",
+      "declaredLicense": "Unicode-3.0",
+      "revision": "a14f2dad852be26bad277ae704abf27a15cbfed1",
+      "repository": "https://github.com/unicode-org/icu4x",
+      "files": [
+        {
+          "path": "rust/litemap@0.8.3/LICENSE",
+          "sha256": "f367c1b8e1aa262435251e442901da4607b4650e0e63a026f5044473ecfb90f2",
+          "bytes": 2195,
+          "originPath": "LICENSE",
+          "originKind": "cargoArchive"
+        }
+      ]
+    },
+    {
+      "ecosystem": "rust",
+      "name": "memchr",
+      "version": "2.8.3",
+      "declaredLicense": "Unlicense OR MIT",
+      "revision": "5fdb40c054e1fff359a2f7bdf7f87a13b34b465d",
+      "repository": "https://github.com/BurntSushi/memchr",
+      "files": [
+        {
+          "path": "rust/memchr@2.8.3/COPYING",
+          "sha256": "01c266bced4a434da0051174d6bee16a4c82cf634e2679b6155d40d75012390f",
+          "bytes": 126,
+          "originPath": "COPYING",
+          "originKind": "cargoArchive"
+        },
+        {
+          "path": "rust/memchr@2.8.3/LICENSE-MIT",
+          "sha256": "0f96a83840e146e43c0ec96a22ec1f392e0680e6c1226e6f3ba87e0740af850f",
+          "bytes": 1081,
+          "originPath": "LICENSE-MIT",
+          "originKind": "cargoArchive"
+        },
+        {
+          "path": "rust/memchr@2.8.3/UNLICENSE",
+          "sha256": "7e12e5df4bae12cb21581ba157ced20e1986a0508dd10d0e8a4ab9a4cf94e85c",
+          "bytes": 1211,
+          "originPath": "UNLICENSE",
+          "originKind": "cargoArchive"
+        }
+      ]
+    },
+    {
+      "ecosystem": "rust",
+      "name": "multiversion_no_op",
+      "version": "1.0.0",
+      "declaredLicense": "Apache-2.0 OR MIT",
+      "revision": "5463f2d9272305f21eed5111eaf221a195abf2f4",
+      "repository": "https://github.com/hsivonen/multiversion_no_op",
+      "files": [
+        {
+          "path": "rust/multiversion_no_op@1.0.0/COPYRIGHT",
+          "sha256": "d2a809eafabba137f508bea16a1b93d8ff24df7da6f38129d830db9bc118bdfe",
+          "bytes": 644,
+          "originPath": "COPYRIGHT",
+          "originKind": "cargoArchive"
+        },
+        {
+          "path": "rust/multiversion_no_op@1.0.0/LICENSE-APACHE",
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+          "bytes": 11358,
+          "originPath": "LICENSE-APACHE",
+          "originKind": "cargoArchive"
+        },
+        {
+          "path": "rust/multiversion_no_op@1.0.0/LICENSE-MIT",
+          "sha256": "3fa4ca83dcc9237839b1bdeb2e6d16bdfb5ec0c5ce42b24694d8bbf0dcbef72c",
+          "bytes": 1053,
+          "originPath": "LICENSE-MIT",
+          "originKind": "cargoArchive"
+        }
+      ]
+    },
+    {
+      "ecosystem": "rust",
+      "name": "nonmax",
+      "version": "0.5.5",
+      "declaredLicense": "MIT OR Apache-2.0",
+      "revision": "645abf30102dd880542865195c36893ee89994b5",
+      "repository": "https://github.com/LPGhatguy/nonmax",
+      "files": [
+        {
+          "path": "rust/nonmax@0.5.5/LICENSE-APACHE",
+          "sha256": "c8b25bb75fd899b6f16794dc8173400f3221a204afb79cd39c3659c955029381",
+          "bytes": 11358,
+          "originPath": "LICENSE-APACHE",
+          "originKind": "cargoArchive"
+        },
+        {
+          "path": "rust/nonmax@0.5.5/LICENSE-MIT",
+          "sha256": "a7a9cf0c93716fc4861165716257701f7363402abfe748bdac1a802cfcd2fa49",
+          "bytes": 1060,
+          "originPath": "LICENSE-MIT",
+          "originKind": "cargoArchive"
+        }
+      ]
+    },
+    {
+      "ecosystem": "rust",
+      "name": "num-bigint",
+      "version": "0.5.1",
+      "declaredLicense": "MIT OR Apache-2.0",
+      "revision": "33c59ba44b7bdb09975b38a321b1b88c6a444005",
+      "repository": "https://github.com/rust-num/num-bigint",
+      "files": [
+        {
+          "path": "rust/num-bigint@0.5.1/LICENSE-APACHE",
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+          "bytes": 10847,
+          "originPath": "LICENSE-APACHE",
+          "originKind": "cargoArchive"
+        },
+        {
+          "path": "rust/num-bigint@0.5.1/LICENSE-MIT",
+          "sha256": "6485b8ed310d3f0340bf1ad1f47645069ce4069dcc6bb46c7d5c6faf41de1fdb",
+          "bytes": 1071,
+          "originPath": "LICENSE-MIT",
+          "originKind": "cargoArchive"
+        }
+      ]
+    },
+    {
+      "ecosystem": "rust",
+      "name": "num-integer",
+      "version": "0.1.47",
+      "declaredLicense": "MIT OR Apache-2.0",
+      "revision": "765fd9b3eb9397471d41b9f613e530f6d9d6383f",
+      "repository": "https://github.com/rust-num/num-integer",
+      "files": [
+        {
+          "path": "rust/num-integer@0.1.47/LICENSE-APACHE",
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+          "bytes": 10847,
+          "originPath": "LICENSE-APACHE",
+          "originKind": "cargoArchive"
+        },
+        {
+          "path": "rust/num-integer@0.1.47/LICENSE-MIT",
+          "sha256": "6485b8ed310d3f0340bf1ad1f47645069ce4069dcc6bb46c7d5c6faf41de1fdb",
+          "bytes": 1071,
+          "originPath": "LICENSE-MIT",
+          "originKind": "cargoArchive"
+        }
+      ]
+    },
+    {
+      "ecosystem": "rust",
+      "name": "num-traits",
+      "version": "0.2.19",
+      "declaredLicense": "MIT OR Apache-2.0",
+      "revision": "7ec3d41d39b28190ec1d42db38021107b3951f3a",
+      "repository": "https://github.com/rust-num/num-traits",
+      "files": [
+        {
+          "path": "rust/num-traits@0.2.19/LICENSE-APACHE",
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+          "bytes": 10847,
+          "originPath": "LICENSE-APACHE",
+          "originKind": "cargoArchive"
+        },
+        {
+          "path": "rust/num-traits@0.2.19/LICENSE-MIT",
+          "sha256": "6485b8ed310d3f0340bf1ad1f47645069ce4069dcc6bb46c7d5c6faf41de1fdb",
+          "bytes": 1071,
+          "originPath": "LICENSE-MIT",
+          "originKind": "cargoArchive"
+        }
+      ]
+    },
+    {
+      "ecosystem": "rust",
+      "name": "oxc_allocator",
+      "version": "0.152.0",
+      "declaredLicense": "MIT",
+      "revision": "dfbc0d1ea752f021ba4a68e4703b3a9031082a46",
+      "repository": "https://github.com/oxc-project/oxc",
+      "files": [
+        {
+          "path": "rust/oxc_allocator@0.152.0/LICENSE",
+          "sha256": "95ced5ecf1133fbf41d409b5555c86c344f83f3b019926057ddbc07cfdcc27b3",
+          "bytes": 1119,
+          "originPath": "LICENSE",
+          "originKind": "upstreamRevision",
+          "url": "https://raw.githubusercontent.com/oxc-project/oxc/dfbc0d1ea752f021ba4a68e4703b3a9031082a46/LICENSE",
+          "gitBlobSHA1": "444bffc00e5190817c0092e5e6fde787102977d2"
+        }
+      ]
+    },
+    {
+      "ecosystem": "rust",
+      "name": "oxc_ast",
+      "version": "0.152.0",
+      "declaredLicense": "MIT",
+      "revision": "dfbc0d1ea752f021ba4a68e4703b3a9031082a46",
+      "repository": "https://github.com/oxc-project/oxc",
+      "files": [
+        {
+          "path": "rust/oxc_ast@0.152.0/LICENSE",
+          "sha256": "95ced5ecf1133fbf41d409b5555c86c344f83f3b019926057ddbc07cfdcc27b3",
+          "bytes": 1119,
+          "originPath": "LICENSE",
+          "originKind": "upstreamRevision",
+          "url": "https://raw.githubusercontent.com/oxc-project/oxc/dfbc0d1ea752f021ba4a68e4703b3a9031082a46/LICENSE",
+          "gitBlobSHA1": "444bffc00e5190817c0092e5e6fde787102977d2"
+        }
+      ]
+    },
+    {
+      "ecosystem": "rust",
+      "name": "oxc_ast_macros",
+      "version": "0.152.0",
+      "declaredLicense": "MIT",
+      "revision": "dfbc0d1ea752f021ba4a68e4703b3a9031082a46",
+      "repository": "https://github.com/oxc-project/oxc",
+      "files": [
+        {
+          "path": "rust/oxc_ast_macros@0.152.0/LICENSE",
+          "sha256": "95ced5ecf1133fbf41d409b5555c86c344f83f3b019926057ddbc07cfdcc27b3",
+          "bytes": 1119,
+          "originPath": "LICENSE",
+          "originKind": "upstreamRevision",
+          "url": "https://raw.githubusercontent.com/oxc-project/oxc/dfbc0d1ea752f021ba4a68e4703b3a9031082a46/LICENSE",
+          "gitBlobSHA1": "444bffc00e5190817c0092e5e6fde787102977d2"
+        }
+      ]
+    },
+    {
+      "ecosystem": "rust",
+      "name": "oxc_data_structures",
+      "version": "0.152.0",
+      "declaredLicense": "MIT",
+      "revision": "dfbc0d1ea752f021ba4a68e4703b3a9031082a46",
+      "repository": "https://github.com/oxc-project/oxc",
+      "files": [
+        {
+          "path": "rust/oxc_data_structures@0.152.0/LICENSE",
+          "sha256": "95ced5ecf1133fbf41d409b5555c86c344f83f3b019926057ddbc07cfdcc27b3",
+          "bytes": 1119,
+          "originPath": "LICENSE",
+          "originKind": "upstreamRevision",
+          "url": "https://raw.githubusercontent.com/oxc-project/oxc/dfbc0d1ea752f021ba4a68e4703b3a9031082a46/LICENSE",
+          "gitBlobSHA1": "444bffc00e5190817c0092e5e6fde787102977d2"
+        }
+      ]
+    },
+    {
+      "ecosystem": "rust",
+      "name": "oxc_diagnostics",
+      "version": "0.152.0",
+      "declaredLicense": "MIT",
+      "revision": "dfbc0d1ea752f021ba4a68e4703b3a9031082a46",
+      "repository": "https://github.com/oxc-project/oxc",
+      "files": [
+        {
+          "path": "rust/oxc_diagnostics@0.152.0/LICENSE",
+          "sha256": "95ced5ecf1133fbf41d409b5555c86c344f83f3b019926057ddbc07cfdcc27b3",
+          "bytes": 1119,
+          "originPath": "LICENSE",
+          "originKind": "upstreamRevision",
+          "url": "https://raw.githubusercontent.com/oxc-project/oxc/dfbc0d1ea752f021ba4a68e4703b3a9031082a46/LICENSE",
+          "gitBlobSHA1": "444bffc00e5190817c0092e5e6fde787102977d2"
+        }
+      ]
+    },
+    {
+      "ecosystem": "rust",
+      "name": "oxc_ecmascript",
+      "version": "0.152.0",
+      "declaredLicense": "MIT",
+      "revision": "dfbc0d1ea752f021ba4a68e4703b3a9031082a46",
+      "repository": "https://github.com/oxc-project/oxc",
+      "files": [
+        {
+          "path": "rust/oxc_ecmascript@0.152.0/LICENSE",
+          "sha256": "95ced5ecf1133fbf41d409b5555c86c344f83f3b019926057ddbc07cfdcc27b3",
+          "bytes": 1119,
+          "originPath": "LICENSE",
+          "originKind": "upstreamRevision",
+          "url": "https://raw.githubusercontent.com/oxc-project/oxc/dfbc0d1ea752f021ba4a68e4703b3a9031082a46/LICENSE",
+          "gitBlobSHA1": "444bffc00e5190817c0092e5e6fde787102977d2"
+        }
+      ]
+    },
+    {
+      "ecosystem": "rust",
+      "name": "oxc_estree",
+      "version": "0.152.0",
+      "declaredLicense": "MIT",
+      "revision": "dfbc0d1ea752f021ba4a68e4703b3a9031082a46",
+      "repository": "https://github.com/oxc-project/oxc",
+      "files": [
+        {
+          "path": "rust/oxc_estree@0.152.0/LICENSE",
+          "sha256": "95ced5ecf1133fbf41d409b5555c86c344f83f3b019926057ddbc07cfdcc27b3",
+          "bytes": 1119,
+          "originPath": "LICENSE",
+          "originKind": "upstreamRevision",
+          "url": "https://raw.githubusercontent.com/oxc-project/oxc/dfbc0d1ea752f021ba4a68e4703b3a9031082a46/LICENSE",
+          "gitBlobSHA1": "444bffc00e5190817c0092e5e6fde787102977d2"
+        }
+      ]
+    },
+    {
+      "ecosystem": "rust",
+      "name": "oxc_index",
+      "version": "5.0.0",
+      "declaredLicense": "MIT",
+      "revision": "8e09fe324eb6df02f56e4eacdfac958930300380",
+      "repository": "https://github.com/oxc-project/oxc-index-vec",
+      "files": [
+        {
+          "path": "rust/oxc_index@5.0.0/LICENSE",
+          "sha256": "95ced5ecf1133fbf41d409b5555c86c344f83f3b019926057ddbc07cfdcc27b3",
+          "bytes": 1119,
+          "originPath": "LICENSE",
+          "originKind": "upstreamRevision",
+          "url": "https://raw.githubusercontent.com/oxc-project/oxc-index-vec/8e09fe324eb6df02f56e4eacdfac958930300380/LICENSE",
+          "gitBlobSHA1": "444bffc00e5190817c0092e5e6fde787102977d2"
+        }
+      ]
+    },
+    {
+      "ecosystem": "rust",
+      "name": "oxc_parser",
+      "version": "0.152.0",
+      "declaredLicense": "MIT",
+      "revision": "dfbc0d1ea752f021ba4a68e4703b3a9031082a46",
+      "repository": "https://github.com/oxc-project/oxc",
+      "files": [
+        {
+          "path": "rust/oxc_parser@0.152.0/LICENSE",
+          "sha256": "95ced5ecf1133fbf41d409b5555c86c344f83f3b019926057ddbc07cfdcc27b3",
+          "bytes": 1119,
+          "originPath": "LICENSE",
+          "originKind": "vendoredSource"
+        }
+      ]
+    },
+    {
+      "ecosystem": "rust",
+      "name": "oxc_regular_expression",
+      "version": "0.152.0",
+      "declaredLicense": "MIT",
+      "revision": "dfbc0d1ea752f021ba4a68e4703b3a9031082a46",
+      "repository": "https://github.com/oxc-project/oxc",
+      "files": [
+        {
+          "path": "rust/oxc_regular_expression@0.152.0/LICENSE",
+          "sha256": "95ced5ecf1133fbf41d409b5555c86c344f83f3b019926057ddbc07cfdcc27b3",
+          "bytes": 1119,
+          "originPath": "LICENSE",
+          "originKind": "upstreamRevision",
+          "url": "https://raw.githubusercontent.com/oxc-project/oxc/dfbc0d1ea752f021ba4a68e4703b3a9031082a46/LICENSE",
+          "gitBlobSHA1": "444bffc00e5190817c0092e5e6fde787102977d2"
+        }
+      ]
+    },
+    {
+      "ecosystem": "rust",
+      "name": "oxc_span",
+      "version": "0.152.0",
+      "declaredLicense": "MIT",
+      "revision": "dfbc0d1ea752f021ba4a68e4703b3a9031082a46",
+      "repository": "https://github.com/oxc-project/oxc",
+      "files": [
+        {
+          "path": "rust/oxc_span@0.152.0/LICENSE",
+          "sha256": "95ced5ecf1133fbf41d409b5555c86c344f83f3b019926057ddbc07cfdcc27b3",
+          "bytes": 1119,
+          "originPath": "LICENSE",
+          "originKind": "upstreamRevision",
+          "url": "https://raw.githubusercontent.com/oxc-project/oxc/dfbc0d1ea752f021ba4a68e4703b3a9031082a46/LICENSE",
+          "gitBlobSHA1": "444bffc00e5190817c0092e5e6fde787102977d2"
+        }
+      ]
+    },
+    {
+      "ecosystem": "rust",
+      "name": "oxc_str",
+      "version": "0.152.0",
+      "declaredLicense": "MIT",
+      "revision": "dfbc0d1ea752f021ba4a68e4703b3a9031082a46",
+      "repository": "https://github.com/oxc-project/oxc",
+      "files": [
+        {
+          "path": "rust/oxc_str@0.152.0/LICENSE",
+          "sha256": "95ced5ecf1133fbf41d409b5555c86c344f83f3b019926057ddbc07cfdcc27b3",
+          "bytes": 1119,
+          "originPath": "LICENSE",
+          "originKind": "upstreamRevision",
+          "url": "https://raw.githubusercontent.com/oxc-project/oxc/dfbc0d1ea752f021ba4a68e4703b3a9031082a46/LICENSE",
+          "gitBlobSHA1": "444bffc00e5190817c0092e5e6fde787102977d2"
+        }
+      ]
+    },
+    {
+      "ecosystem": "rust",
+      "name": "oxc_syntax",
+      "version": "0.152.0",
+      "declaredLicense": "MIT",
+      "revision": "dfbc0d1ea752f021ba4a68e4703b3a9031082a46",
+      "repository": "https://github.com/oxc-project/oxc",
+      "files": [
+        {
+          "path": "rust/oxc_syntax@0.152.0/LICENSE",
+          "sha256": "95ced5ecf1133fbf41d409b5555c86c344f83f3b019926057ddbc07cfdcc27b3",
+          "bytes": 1119,
+          "originPath": "LICENSE",
+          "originKind": "upstreamRevision",
+          "url": "https://raw.githubusercontent.com/oxc-project/oxc/dfbc0d1ea752f021ba4a68e4703b3a9031082a46/LICENSE",
+          "gitBlobSHA1": "444bffc00e5190817c0092e5e6fde787102977d2"
+        }
+      ]
+    },
+    {
+      "ecosystem": "rust",
+      "name": "percent-encoding",
+      "version": "2.3.2",
+      "declaredLicense": "MIT OR Apache-2.0",
+      "revision": "91377f48bf35011d042aa5abef9e7f2a0a625aaa",
+      "repository": "https://github.com/servo/rust-url/",
+      "files": [
+        {
+          "path": "rust/percent-encoding@2.3.2/LICENSE-APACHE",
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+          "bytes": 10847,
+          "originPath": "LICENSE-APACHE",
+          "originKind": "cargoArchive"
+        },
+        {
+          "path": "rust/percent-encoding@2.3.2/LICENSE-MIT",
+          "sha256": "b38f11f6096706e6de553dabe2a7ed142d59b6fa8c97e290c67496154745cdd5",
+          "bytes": 1072,
+          "originPath": "LICENSE-MIT",
+          "originKind": "cargoArchive"
+        }
+      ]
+    },
+    {
+      "ecosystem": "rust",
+      "name": "phf",
+      "version": "0.14.0",
+      "declaredLicense": "MIT",
+      "revision": "1620d169aad09b02ef02a97b272470152e100bd6",
+      "repository": "https://github.com/rust-phf/rust-phf",
+      "files": [
+        {
+          "path": "rust/phf@0.14.0/LICENSE",
+          "sha256": "0ab4d106b6faac07fb6a051815fd1b4d862d730895e2d7d7358c2f13565e7a38",
+          "bytes": 1099,
+          "originPath": "LICENSE",
+          "originKind": "cargoArchive"
+        }
+      ]
+    },
+    {
+      "ecosystem": "rust",
+      "name": "phf_generator",
+      "version": "0.14.0",
+      "declaredLicense": "MIT",
+      "revision": "1620d169aad09b02ef02a97b272470152e100bd6",
+      "repository": "https://github.com/rust-phf/rust-phf",
+      "files": [
+        {
+          "path": "rust/phf_generator@0.14.0/LICENSE",
+          "sha256": "0ab4d106b6faac07fb6a051815fd1b4d862d730895e2d7d7358c2f13565e7a38",
+          "bytes": 1099,
+          "originPath": "LICENSE",
+          "originKind": "cargoArchive"
+        }
+      ]
+    },
+    {
+      "ecosystem": "rust",
+      "name": "phf_macros",
+      "version": "0.14.0",
+      "declaredLicense": "MIT",
+      "revision": "1620d169aad09b02ef02a97b272470152e100bd6",
+      "repository": "https://github.com/rust-phf/rust-phf",
+      "files": [
+        {
+          "path": "rust/phf_macros@0.14.0/LICENSE",
+          "sha256": "0ab4d106b6faac07fb6a051815fd1b4d862d730895e2d7d7358c2f13565e7a38",
+          "bytes": 1099,
+          "originPath": "LICENSE",
+          "originKind": "cargoArchive"
+        }
+      ]
+    },
+    {
+      "ecosystem": "rust",
+      "name": "phf_shared",
+      "version": "0.14.0",
+      "declaredLicense": "MIT",
+      "revision": "1620d169aad09b02ef02a97b272470152e100bd6",
+      "repository": "https://github.com/rust-phf/rust-phf",
+      "files": [
+        {
+          "path": "rust/phf_shared@0.14.0/LICENSE",
+          "sha256": "0ab4d106b6faac07fb6a051815fd1b4d862d730895e2d7d7358c2f13565e7a38",
+          "bytes": 1099,
+          "originPath": "LICENSE",
+          "originKind": "cargoArchive"
+        }
+      ]
+    },
+    {
+      "ecosystem": "rust",
+      "name": "potential_utf",
+      "version": "0.1.6",
+      "declaredLicense": "Unicode-3.0",
+      "revision": "a14f2dad852be26bad277ae704abf27a15cbfed1",
+      "repository": "https://github.com/unicode-org/icu4x",
+      "files": [
+        {
+          "path": "rust/potential_utf@0.1.6/LICENSE",
+          "sha256": "f367c1b8e1aa262435251e442901da4607b4650e0e63a026f5044473ecfb90f2",
+          "bytes": 2195,
+          "originPath": "LICENSE",
+          "originKind": "cargoArchive"
+        }
+      ]
+    },
+    {
+      "ecosystem": "rust",
+      "name": "pretty_yaml",
+      "version": "0.6.0",
+      "declaredLicense": "MIT",
+      "revision": "8692d450e21b6dd8a573e561776e102cb5fdb171",
+      "repository": "https://github.com/g-plane/pretty_yaml",
+      "files": [
+        {
+          "path": "rust/pretty_yaml@0.6.0/LICENSE",
+          "sha256": "2efe0331e360cdaa2701ae0b42fa1ce6002ee52675d648a0c49029b5f27eb734",
+          "bytes": 1073,
+          "originPath": "LICENSE",
+          "originKind": "upstreamRevision",
+          "url": "https://raw.githubusercontent.com/g-plane/pretty_yaml/8692d450e21b6dd8a573e561776e102cb5fdb171/LICENSE",
+          "gitBlobSHA1": "95f86bff9b18ff1001d56b4738993a6bdaef6e61"
+        }
+      ]
+    },
+    {
+      "ecosystem": "rust",
+      "name": "proc-macro2",
+      "version": "1.0.107",
+      "declaredLicense": "MIT OR Apache-2.0",
+      "revision": "ed8a5497669cd63db33bf24646f261b012bbbc4a",
+      "repository": "https://github.com/dtolnay/proc-macro2",
+      "files": [
+        {
+          "path": "rust/proc-macro2@1.0.107/LICENSE-APACHE",
+          "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a",
+          "bytes": 9723,
+          "originPath": "LICENSE-APACHE",
+          "originKind": "cargoArchive"
+        },
+        {
+          "path": "rust/proc-macro2@1.0.107/LICENSE-MIT",
+          "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+          "bytes": 1023,
+          "originPath": "LICENSE-MIT",
+          "originKind": "cargoArchive"
+        }
+      ]
+    },
+    {
+      "ecosystem": "rust",
+      "name": "quote",
+      "version": "1.0.47",
+      "declaredLicense": "MIT OR Apache-2.0",
+      "revision": "723dcb47d3f0ddc896e17287c8a8d3f2ea2317d5",
+      "repository": "https://github.com/dtolnay/quote",
+      "files": [
+        {
+          "path": "rust/quote@1.0.47/LICENSE-APACHE",
+          "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a",
+          "bytes": 9723,
+          "originPath": "LICENSE-APACHE",
+          "originKind": "cargoArchive"
+        },
+        {
+          "path": "rust/quote@1.0.47/LICENSE-MIT",
+          "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+          "bytes": 1023,
+          "originPath": "LICENSE-MIT",
+          "originKind": "cargoArchive"
+        }
+      ]
+    },
+    {
+      "ecosystem": "rust",
+      "name": "rowan",
+      "version": "0.16.1",
+      "declaredLicense": "MIT OR Apache-2.0",
+      "revision": "e25dbdf9cb7f7757eb85c74a69c8a7d4a4fae67b",
+      "repository": "https://github.com/rust-analyzer/rowan",
+      "files": [
+        {
+          "path": "rust/rowan@0.16.1/LICENSE-APACHE",
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+          "bytes": 10847,
+          "originPath": "LICENSE-APACHE",
+          "originKind": "cargoArchive"
+        },
+        {
+          "path": "rust/rowan@0.16.1/LICENSE-MIT",
+          "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+          "bytes": 1023,
+          "originPath": "LICENSE-MIT",
+          "originKind": "cargoArchive"
+        }
+      ]
+    },
+    {
+      "ecosystem": "rust",
+      "name": "rustc-hash",
+      "version": "1.1.0",
+      "declaredLicense": "Apache-2.0/MIT",
+      "revision": "6fc9a706a9312ee801c7e77ca06c0782fa9eadef",
+      "repository": "https://github.com/rust-lang-nursery/rustc-hash",
+      "files": [
+        {
+          "path": "rust/rustc-hash@1.1.0/LICENSE-APACHE",
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+          "bytes": 10847,
+          "originPath": "LICENSE-APACHE",
+          "originKind": "cargoArchive"
+        },
+        {
+          "path": "rust/rustc-hash@1.1.0/LICENSE-MIT",
+          "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+          "bytes": 1023,
+          "originPath": "LICENSE-MIT",
+          "originKind": "cargoArchive"
+        }
+      ]
+    },
+    {
+      "ecosystem": "rust",
+      "name": "rustc-hash",
+      "version": "2.1.3",
+      "declaredLicense": "Apache-2.0 OR MIT",
+      "revision": "c13e7ccca705e6255387a2ebc6dca142d6881621",
+      "repository": "https://github.com/rust-lang/rustc-hash",
+      "files": [
+        {
+          "path": "rust/rustc-hash@2.1.3/LICENSE-APACHE",
+          "sha256": "95bd3988beee069fa2848f648dab43cc6e0b2add2ad6bcb17360caf749802bcc",
+          "bytes": 9722,
+          "originPath": "LICENSE-APACHE",
+          "originKind": "cargoArchive"
+        },
+        {
+          "path": "rust/rustc-hash@2.1.3/LICENSE-MIT",
+          "sha256": "30fefc3a7d6a0041541858293bcbea2dde4caa4c0a5802f996a7f7e8c0085652",
+          "bytes": 1022,
+          "originPath": "LICENSE-MIT",
+          "originKind": "cargoArchive"
+        }
+      ]
+    },
+    {
+      "ecosystem": "rust",
+      "name": "rustversion",
+      "version": "1.0.23",
+      "declaredLicense": "MIT OR Apache-2.0",
+      "revision": "3a7c76605450b9a7299c6502a421909de9126a59",
+      "repository": "https://github.com/dtolnay/rustversion",
+      "files": [
+        {
+          "path": "rust/rustversion@1.0.23/LICENSE-APACHE",
+          "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a",
+          "bytes": 9723,
+          "originPath": "LICENSE-APACHE",
+          "originKind": "cargoArchive"
+        },
+        {
+          "path": "rust/rustversion@1.0.23/LICENSE-MIT",
+          "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+          "bytes": 1023,
+          "originPath": "LICENSE-MIT",
+          "originKind": "cargoArchive"
+        }
+      ]
+    },
+    {
+      "ecosystem": "rust",
+      "name": "scopeguard",
+      "version": "1.2.0",
+      "declaredLicense": "MIT OR Apache-2.0",
+      "revision": "bb988222848d39b0b9037b29da3a3a1eb05ebf4b",
+      "repository": "https://github.com/bluss/scopeguard",
+      "files": [
+        {
+          "path": "rust/scopeguard@1.2.0/LICENSE-APACHE",
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+          "bytes": 10847,
+          "originPath": "LICENSE-APACHE",
+          "originKind": "cargoArchive"
+        },
+        {
+          "path": "rust/scopeguard@1.2.0/LICENSE-MIT",
+          "sha256": "fb77f0a9c53e473abe5103c8632ef9f0f2874d4fb3f17cb2d8c661aab9cee9d7",
+          "bytes": 1097,
+          "originPath": "LICENSE-MIT",
+          "originKind": "cargoArchive"
+        }
+      ]
+    },
+    {
+      "ecosystem": "rust",
+      "name": "seq-macro",
+      "version": "0.3.6",
+      "declaredLicense": "MIT OR Apache-2.0",
+      "revision": "828442657f65fbf3730763e0ecdcf5c7b1155399",
+      "repository": "https://github.com/dtolnay/seq-macro",
+      "files": [
+        {
+          "path": "rust/seq-macro@0.3.6/LICENSE-APACHE",
+          "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a",
+          "bytes": 9723,
+          "originPath": "LICENSE-APACHE",
+          "originKind": "cargoArchive"
+        },
+        {
+          "path": "rust/seq-macro@0.3.6/LICENSE-MIT",
+          "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+          "bytes": 1023,
+          "originPath": "LICENSE-MIT",
+          "originKind": "cargoArchive"
+        }
+      ]
+    },
+    {
+      "ecosystem": "rust",
+      "name": "serde",
+      "version": "1.0.229",
+      "declaredLicense": "MIT OR Apache-2.0",
+      "revision": "7fc3b4c30c94f73a96ebd1553f2b090d928fc3a8",
+      "repository": "https://github.com/serde-rs/serde",
+      "files": [
+        {
+          "path": "rust/serde@1.0.229/LICENSE-APACHE",
+          "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a",
+          "bytes": 9723,
+          "originPath": "LICENSE-APACHE",
+          "originKind": "cargoArchive"
+        },
+        {
+          "path": "rust/serde@1.0.229/LICENSE-MIT",
+          "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+          "bytes": 1023,
+          "originPath": "LICENSE-MIT",
+          "originKind": "cargoArchive"
+        }
+      ]
+    },
+    {
+      "ecosystem": "rust",
+      "name": "serde_core",
+      "version": "1.0.229",
+      "declaredLicense": "MIT OR Apache-2.0",
+      "revision": "7fc3b4c30c94f73a96ebd1553f2b090d928fc3a8",
+      "repository": "https://github.com/serde-rs/serde",
+      "files": [
+        {
+          "path": "rust/serde_core@1.0.229/LICENSE-APACHE",
+          "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a",
+          "bytes": 9723,
+          "originPath": "LICENSE-APACHE",
+          "originKind": "cargoArchive"
+        },
+        {
+          "path": "rust/serde_core@1.0.229/LICENSE-MIT",
+          "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+          "bytes": 1023,
+          "originPath": "LICENSE-MIT",
+          "originKind": "cargoArchive"
+        }
+      ]
+    },
+    {
+      "ecosystem": "rust",
+      "name": "serde_derive",
+      "version": "1.0.229",
+      "declaredLicense": "MIT OR Apache-2.0",
+      "revision": "7fc3b4c30c94f73a96ebd1553f2b090d928fc3a8",
+      "repository": "https://github.com/serde-rs/serde",
+      "files": [
+        {
+          "path": "rust/serde_derive@1.0.229/LICENSE-APACHE",
+          "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a",
+          "bytes": 9723,
+          "originPath": "LICENSE-APACHE",
+          "originKind": "cargoArchive"
+        },
+        {
+          "path": "rust/serde_derive@1.0.229/LICENSE-MIT",
+          "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+          "bytes": 1023,
+          "originPath": "LICENSE-MIT",
+          "originKind": "cargoArchive"
+        }
+      ]
+    },
+    {
+      "ecosystem": "rust",
+      "name": "serde_json",
+      "version": "1.0.151",
+      "declaredLicense": "MIT OR Apache-2.0",
+      "revision": "de8500740cdcabffb9734f503e4889def823cf10",
+      "repository": "https://github.com/serde-rs/json",
+      "files": [
+        {
+          "path": "rust/serde_json@1.0.151/LICENSE-APACHE",
+          "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a",
+          "bytes": 9723,
+          "originPath": "LICENSE-APACHE",
+          "originKind": "cargoArchive"
+        },
+        {
+          "path": "rust/serde_json@1.0.151/LICENSE-MIT",
+          "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+          "bytes": 1023,
+          "originPath": "LICENSE-MIT",
+          "originKind": "cargoArchive"
+        }
+      ]
+    },
+    {
+      "ecosystem": "rust",
+      "name": "simdutf8",
+      "version": "0.1.5",
+      "declaredLicense": "MIT OR Apache-2.0",
+      "revision": "87ee8d9d20b849eae1974a82b248ee6fe7491bcc",
+      "repository": "https://github.com/rusticstuff/simdutf8",
+      "files": [
+        {
+          "path": "rust/simdutf8@0.1.5/LICENSE-Apache",
+          "sha256": "0cec06e0e55fbc3dc5cee4fca9b607f66cb8f4e4dbcf3b3c013594dd156732e9",
+          "bytes": 10173,
+          "originPath": "LICENSE-Apache",
+          "originKind": "cargoArchive"
+        },
+        {
+          "path": "rust/simdutf8@0.1.5/LICENSE-MIT",
+          "sha256": "1847e0e0698142ed4347c1441a9fa81c8fbddd44b1d8bbcd5e3647f991759d7f",
+          "bytes": 1035,
+          "originPath": "LICENSE-MIT",
+          "originKind": "cargoArchive"
+        }
+      ]
+    },
+    {
+      "ecosystem": "rust",
+      "name": "siphasher",
+      "version": "1.0.4",
+      "declaredLicense": "MIT OR Apache-2.0",
+      "revision": "ed028f01a16205b0819fa83b0cdc052e2d5ac3b7",
+      "repository": "https://github.com/jedisct1/rust-siphash",
+      "files": [
+        {
+          "path": "rust/siphasher@1.0.4/COPYING",
+          "sha256": "c962ee4d1d05ddc138b202b2540219ebc57893fcf97b364852094a9a94ce1365",
+          "bytes": 281,
+          "originPath": "COPYING",
+          "originKind": "cargoArchive"
+        },
+        {
+          "path": "rust/siphasher@1.0.4/LICENSE-APACHE",
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+          "bytes": 11358,
+          "originPath": "LICENSE-APACHE",
+          "originKind": "cargoArchive"
+        },
+        {
+          "path": "rust/siphasher@1.0.4/LICENSE-MIT",
+          "sha256": "f9c4c77baa3828004ee54b8a4f2db2e88ed44a6237a493965bf551fac0fcb62d",
+          "bytes": 1023,
+          "originPath": "LICENSE-MIT",
+          "originKind": "cargoArchive"
+        }
+      ]
+    },
+    {
+      "ecosystem": "rust",
+      "name": "smallvec",
+      "version": "1.16.2",
+      "declaredLicense": "MIT OR Apache-2.0",
+      "revision": "ccf5fc71044d491c46a3d79e7ed53948e6da1590",
+      "repository": "https://github.com/servo/rust-smallvec",
+      "files": [
+        {
+          "path": "rust/smallvec@1.16.2/LICENSE-APACHE",
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+          "bytes": 10847,
+          "originPath": "LICENSE-APACHE",
+          "originKind": "cargoArchive"
+        },
+        {
+          "path": "rust/smallvec@1.16.2/LICENSE-MIT",
+          "sha256": "0b28172679e0009b655da42797c03fd163a3379d5cfa67ba1f1655e974a2a1a9",
+          "bytes": 1072,
+          "originPath": "LICENSE-MIT",
+          "originKind": "cargoArchive"
+        }
+      ]
+    },
+    {
+      "ecosystem": "rust",
+      "name": "smawk",
+      "version": "0.3.3",
+      "declaredLicense": "MIT",
+      "revision": "930fe5044e330bd45bdf5bee16a95b6732edcd33",
+      "repository": "https://github.com/mgeisler/smawk",
+      "files": [
+        {
+          "path": "rust/smawk@0.3.3/LICENSE",
+          "sha256": "0173035e025d60b1d19197840a93a887f6da8b075c01dd10601fcb6414a0043b",
+          "bytes": 1071,
+          "originPath": "LICENSE",
+          "originKind": "cargoArchive"
+        }
+      ]
+    },
+    {
+      "ecosystem": "rust",
+      "name": "stable_deref_trait",
+      "version": "1.2.1",
+      "declaredLicense": "MIT OR Apache-2.0",
+      "revision": "30002b4228f7cdee309217b6bf6eee099dda0b00",
+      "repository": "https://github.com/storyyeller/stable_deref_trait",
+      "files": [
+        {
+          "path": "rust/stable_deref_trait@1.2.1/LICENSE-APACHE",
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+          "bytes": 10847,
+          "originPath": "LICENSE-APACHE",
+          "originKind": "cargoArchive"
+        },
+        {
+          "path": "rust/stable_deref_trait@1.2.1/LICENSE-MIT",
+          "sha256": "5e05b024f653a5ce199e77cbbbd42fb5553562ec714b819421ed0c3e552a75d7",
+          "bytes": 1056,
+          "originPath": "LICENSE-MIT",
+          "originKind": "cargoArchive"
+        }
+      ]
+    },
+    {
+      "ecosystem": "rust",
+      "name": "static_assertions",
+      "version": "1.1.0",
+      "declaredLicense": "MIT OR Apache-2.0",
+      "revision": "18bc65a094d890fe1faa5d3ccb70f12b89eabf56",
+      "repository": "https://github.com/nvzqz/static-assertions-rs",
+      "files": [
+        {
+          "path": "rust/static_assertions@1.1.0/LICENSE-APACHE",
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+          "bytes": 11358,
+          "originPath": "LICENSE-APACHE",
+          "originKind": "cargoArchive"
+        },
+        {
+          "path": "rust/static_assertions@1.1.0/LICENSE-MIT",
+          "sha256": "ea084a2373ebc1f0902c09266e7bf25a05ab3814c1805bb017ffa7308f90c061",
+          "bytes": 1072,
+          "originPath": "LICENSE-MIT",
+          "originKind": "cargoArchive"
+        }
+      ]
+    },
+    {
+      "ecosystem": "rust",
+      "name": "syn",
+      "version": "2.0.119",
+      "declaredLicense": "MIT OR Apache-2.0",
+      "revision": "3295f9e9841785ac88a5e558c884854d5fb7d67f",
+      "repository": "https://github.com/dtolnay/syn",
+      "files": [
+        {
+          "path": "rust/syn@2.0.119/LICENSE-APACHE",
+          "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a",
+          "bytes": 9723,
+          "originPath": "LICENSE-APACHE",
+          "originKind": "cargoArchive"
+        },
+        {
+          "path": "rust/syn@2.0.119/LICENSE-MIT",
+          "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+          "bytes": 1023,
+          "originPath": "LICENSE-MIT",
+          "originKind": "cargoArchive"
+        }
+      ]
+    },
+    {
+      "ecosystem": "rust",
+      "name": "syn",
+      "version": "3.0.6",
+      "declaredLicense": "MIT OR Apache-2.0",
+      "revision": "559cab55ef0c644f77660840edc3620d0d99d3d7",
+      "repository": "https://github.com/dtolnay/syn",
+      "files": [
+        {
+          "path": "rust/syn@3.0.6/LICENSE-APACHE",
+          "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a",
+          "bytes": 9723,
+          "originPath": "LICENSE-APACHE",
+          "originKind": "cargoArchive"
+        },
+        {
+          "path": "rust/syn@3.0.6/LICENSE-MIT",
+          "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+          "bytes": 1023,
+          "originPath": "LICENSE-MIT",
+          "originKind": "cargoArchive"
+        }
+      ]
+    },
+    {
+      "ecosystem": "rust",
+      "name": "synstructure",
+      "version": "0.14.0",
+      "declaredLicense": "MIT",
+      "revision": "30cfafe36e42405e717a8e55da042a2835a698d7",
+      "repository": "https://github.com/mystor/synstructure",
+      "files": [
+        {
+          "path": "rust/synstructure@0.14.0/LICENSE",
+          "sha256": "219920e865eee70b7dcfc948a86b099e7f4fe2de01bcca2ca9a20c0a033f2b59",
+          "bytes": 1052,
+          "originPath": "LICENSE",
+          "originKind": "cargoArchive"
+        }
+      ]
+    },
+    {
+      "ecosystem": "rust",
+      "name": "text-size",
+      "version": "1.1.1",
+      "declaredLicense": "MIT OR Apache-2.0",
+      "revision": "5f22fbe12550a2c70caff9a8c5347d6722370469",
+      "repository": "https://github.com/rust-analyzer/text-size",
+      "files": [
+        {
+          "path": "rust/text-size@1.1.1/LICENSE-APACHE",
+          "sha256": "7cfd738c53d61c79f07e348f622bf7707c9084237054d37fbe07788a75f5881c",
+          "bytes": 11048,
+          "originPath": "LICENSE-APACHE",
+          "originKind": "cargoArchive"
+        },
+        {
+          "path": "rust/text-size@1.1.1/LICENSE-MIT",
+          "sha256": "36516aefdc84c5d5a1e7485425913a22dbda69eb1930c5e84d6ae4972b5194b9",
+          "bytes": 1046,
+          "originPath": "LICENSE-MIT",
+          "originKind": "cargoArchive"
+        }
+      ]
+    },
+    {
+      "ecosystem": "rust",
+      "name": "textwrap",
+      "version": "0.16.4",
+      "declaredLicense": "MIT",
+      "revision": "5246c6367058468f5813abb47a48dcc138e2a5d5",
+      "repository": "https://github.com/mgeisler/textwrap",
+      "files": [
+        {
+          "path": "rust/textwrap@0.16.4/LICENSE",
+          "sha256": "ce93600c49fbb3e14df32efe752264644f6a2f8e08a735ba981725799e5309ef",
+          "bytes": 1071,
+          "originPath": "LICENSE",
+          "originKind": "cargoArchive"
+        }
+      ]
+    },
+    {
+      "ecosystem": "rust",
+      "name": "tiny_pretty",
+      "version": "0.2.1",
+      "declaredLicense": "MIT",
+      "revision": "2dc522fc6384bc2700c2dab72e7c7e57b9bf0349",
+      "repository": "https://github.com/g-plane/tiny_pretty",
+      "files": [
+        {
+          "path": "rust/tiny_pretty@0.2.1/LICENSE",
+          "sha256": "fe85f268adfe7f3f30994c01093db77b96b917b730cba4275765b1ae97b1f471",
+          "bytes": 1073,
+          "originPath": "LICENSE",
+          "originKind": "cargoArchive"
+        }
+      ]
+    },
+    {
+      "ecosystem": "rust",
+      "name": "tinystr",
+      "version": "0.8.4",
+      "declaredLicense": "Unicode-3.0",
+      "revision": "a14f2dad852be26bad277ae704abf27a15cbfed1",
+      "repository": "https://github.com/unicode-org/icu4x",
+      "files": [
+        {
+          "path": "rust/tinystr@0.8.4/LICENSE",
+          "sha256": "f367c1b8e1aa262435251e442901da4607b4650e0e63a026f5044473ecfb90f2",
+          "bytes": 2195,
+          "originPath": "LICENSE",
+          "originKind": "cargoArchive"
+        }
+      ]
+    },
+    {
+      "ecosystem": "rust",
+      "name": "unicode-id-start",
+      "version": "1.5.0",
+      "declaredLicense": "(MIT OR Apache-2.0) AND Unicode-3.0",
+      "revision": "40f21b9f931a59b49a72eff3ec263028ed831d76",
+      "repository": "https://github.com/Boshen/unicode-id-start",
+      "files": [
+        {
+          "path": "rust/unicode-id-start@1.5.0/LICENSE-APACHE",
+          "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a",
+          "bytes": 9723,
+          "originPath": "LICENSE-APACHE",
+          "originKind": "cargoArchive"
+        },
+        {
+          "path": "rust/unicode-id-start@1.5.0/LICENSE-MIT",
+          "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+          "bytes": 1023,
+          "originPath": "LICENSE-MIT",
+          "originKind": "cargoArchive"
+        },
+        {
+          "path": "rust/unicode-id-start@1.5.0/LICENSE-UNICODE",
+          "sha256": "f7db81051789b729fea528a63ec4c938fdcb93d9d61d97dc8cc2e9df6d47f2a1",
+          "bytes": 1995,
+          "originPath": "LICENSE-UNICODE",
+          "originKind": "cargoArchive"
+        }
+      ]
+    },
+    {
+      "ecosystem": "rust",
+      "name": "unicode-ident",
+      "version": "1.0.26",
+      "declaredLicense": "(MIT OR Apache-2.0) AND Unicode-3.0",
+      "revision": "48771a67a73f7e14ce802aaeee16770ba661035b",
+      "repository": "https://github.com/dtolnay/unicode-ident",
+      "files": [
+        {
+          "path": "rust/unicode-ident@1.0.26/LICENSE-APACHE",
+          "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a",
+          "bytes": 9723,
+          "originPath": "LICENSE-APACHE",
+          "originKind": "cargoArchive"
+        },
+        {
+          "path": "rust/unicode-ident@1.0.26/LICENSE-MIT",
+          "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+          "bytes": 1023,
+          "originPath": "LICENSE-MIT",
+          "originKind": "cargoArchive"
+        },
+        {
+          "path": "rust/unicode-ident@1.0.26/LICENSE-UNICODE",
+          "sha256": "f7db81051789b729fea528a63ec4c938fdcb93d9d61d97dc8cc2e9df6d47f2a1",
+          "bytes": 1995,
+          "originPath": "LICENSE-UNICODE",
+          "originKind": "cargoArchive"
+        }
+      ]
+    },
+    {
+      "ecosystem": "rust",
+      "name": "unicode-segmentation",
+      "version": "1.13.3",
+      "declaredLicense": "MIT OR Apache-2.0",
+      "revision": "66a032fd8d667bc47ac5b640b151dff3f5356d07",
+      "repository": "https://github.com/unicode-rs/unicode-segmentation",
+      "files": [
+        {
+          "path": "rust/unicode-segmentation@1.13.3/COPYRIGHT",
+          "sha256": "23860c2a7b5d96b21569afedf033469bab9fe14a1b24a35068b8641c578ce24d",
+          "bytes": 321,
+          "originPath": "COPYRIGHT",
+          "originKind": "cargoArchive"
+        },
+        {
+          "path": "rust/unicode-segmentation@1.13.3/LICENSE-APACHE",
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+          "bytes": 10847,
+          "originPath": "LICENSE-APACHE",
+          "originKind": "cargoArchive"
+        },
+        {
+          "path": "rust/unicode-segmentation@1.13.3/LICENSE-MIT",
+          "sha256": "7b63ecd5f1902af1b63729947373683c32745c16a10e8e6292e2e2dcd7e90ae0",
+          "bytes": 1071,
+          "originPath": "LICENSE-MIT",
+          "originKind": "cargoArchive"
+        }
+      ]
+    },
+    {
+      "ecosystem": "rust",
+      "name": "unicode-width",
+      "version": "0.2.2",
+      "declaredLicense": "MIT OR Apache-2.0",
+      "revision": "9d98411769fe13c7c18cab0b3fbbab29ba8350ea",
+      "repository": "https://github.com/unicode-rs/unicode-width",
+      "files": [
+        {
+          "path": "rust/unicode-width@0.2.2/COPYRIGHT",
+          "sha256": "23860c2a7b5d96b21569afedf033469bab9fe14a1b24a35068b8641c578ce24d",
+          "bytes": 321,
+          "originPath": "COPYRIGHT",
+          "originKind": "cargoArchive"
+        },
+        {
+          "path": "rust/unicode-width@0.2.2/LICENSE-APACHE",
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+          "bytes": 10847,
+          "originPath": "LICENSE-APACHE",
+          "originKind": "cargoArchive"
+        },
+        {
+          "path": "rust/unicode-width@0.2.2/LICENSE-MIT",
+          "sha256": "7b63ecd5f1902af1b63729947373683c32745c16a10e8e6292e2e2dcd7e90ae0",
+          "bytes": 1071,
+          "originPath": "LICENSE-MIT",
+          "originKind": "cargoArchive"
+        }
+      ]
+    },
+    {
+      "ecosystem": "rust",
+      "name": "utf8_iter",
+      "version": "1.0.4",
+      "declaredLicense": "Apache-2.0 OR MIT",
+      "revision": "6b604ea2365bd535fb66eb4bfe92a9e00e333090",
+      "repository": "https://github.com/hsivonen/utf8_iter",
+      "files": [
+        {
+          "path": "rust/utf8_iter@1.0.4/COPYRIGHT",
+          "sha256": "c30152c94a6d75e021adbc52b3a52470366a46edb917e17deae3259251af244c",
+          "bytes": 1742,
+          "originPath": "COPYRIGHT",
+          "originKind": "cargoArchive"
+        },
+        {
+          "path": "rust/utf8_iter@1.0.4/LICENSE-APACHE",
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+          "bytes": 11358,
+          "originPath": "LICENSE-APACHE",
+          "originKind": "cargoArchive"
+        },
+        {
+          "path": "rust/utf8_iter@1.0.4/LICENSE-MIT",
+          "sha256": "3fa4ca83dcc9237839b1bdeb2e6d16bdfb5ec0c5ce42b24694d8bbf0dcbef72c",
+          "bytes": 1053,
+          "originPath": "LICENSE-MIT",
+          "originKind": "cargoArchive"
+        }
+      ]
+    },
+    {
+      "ecosystem": "rust",
+      "name": "winnow",
+      "version": "0.7.15",
+      "declaredLicense": "MIT",
+      "revision": "eae4d4a23c400fec27a01cfb7115bc7808374f40",
+      "repository": "https://github.com/winnow-rs/winnow",
+      "files": [
+        {
+          "path": "rust/winnow@0.7.15/LICENSE-MIT",
+          "sha256": "cb5aedb296c5246d1f22e9099f925a65146f9f0d6b4eebba97fd27a6cdbbab2d",
+          "bytes": 1023,
+          "originPath": "LICENSE-MIT",
+          "originKind": "cargoArchive"
+        }
+      ]
+    },
+    {
+      "ecosystem": "rust",
+      "name": "writeable",
+      "version": "0.6.4",
+      "declaredLicense": "Unicode-3.0",
+      "revision": "a14f2dad852be26bad277ae704abf27a15cbfed1",
+      "repository": "https://github.com/unicode-org/icu4x",
+      "files": [
+        {
+          "path": "rust/writeable@0.6.4/LICENSE",
+          "sha256": "f367c1b8e1aa262435251e442901da4607b4650e0e63a026f5044473ecfb90f2",
+          "bytes": 2195,
+          "originPath": "LICENSE",
+          "originKind": "cargoArchive"
+        }
+      ]
+    },
+    {
+      "ecosystem": "rust",
+      "name": "yaml-rust2",
+      "version": "0.11.1",
+      "declaredLicense": "MIT OR Apache-2.0",
+      "revision": "8316be6808214d1eedb736442374ba3e49cd7c26",
+      "repository": "https://github.com/Ethiraric/yaml-rust2",
+      "files": [
+        {
+          "path": "rust/yaml-rust2@0.11.1/Apache-LICENSE",
+          "sha256": "278f0e5c23f023a2f1af8d528dd5c29dc3a5ea2dd63558aa8d4f077c09e037c7",
+          "bytes": 10307,
+          "originPath": "Apache-LICENSE",
+          "originKind": "cargoArchive"
+        },
+        {
+          "path": "rust/yaml-rust2@0.11.1/MIT-LICENSE",
+          "sha256": "3dd30063cdb4a378736348c215cb84b78b0711ba7e39903162cae5ce71dc9757",
+          "bytes": 1107,
+          "originPath": "MIT-LICENSE",
+          "originKind": "cargoArchive"
+        }
+      ]
+    },
+    {
+      "ecosystem": "rust",
+      "name": "yaml_parser",
+      "version": "0.3.0",
+      "declaredLicense": "MIT",
+      "revision": "8692d450e21b6dd8a573e561776e102cb5fdb171",
+      "repository": "https://github.com/g-plane/pretty_yaml",
+      "files": [
+        {
+          "path": "rust/yaml_parser@0.3.0/LICENSE",
+          "sha256": "2efe0331e360cdaa2701ae0b42fa1ce6002ee52675d648a0c49029b5f27eb734",
+          "bytes": 1073,
+          "originPath": "LICENSE",
+          "originKind": "upstreamRevision",
+          "url": "https://raw.githubusercontent.com/g-plane/pretty_yaml/8692d450e21b6dd8a573e561776e102cb5fdb171/LICENSE",
+          "gitBlobSHA1": "95f86bff9b18ff1001d56b4738993a6bdaef6e61"
+        }
+      ]
+    },
+    {
+      "ecosystem": "rust",
+      "name": "yoke",
+      "version": "0.8.3",
+      "declaredLicense": "Unicode-3.0",
+      "revision": "a954ec29392c0225453404cb1f6a77f0ded27089",
+      "repository": "https://github.com/unicode-org/icu4x",
+      "files": [
+        {
+          "path": "rust/yoke@0.8.3/LICENSE",
+          "sha256": "f367c1b8e1aa262435251e442901da4607b4650e0e63a026f5044473ecfb90f2",
+          "bytes": 2195,
+          "originPath": "LICENSE",
+          "originKind": "cargoArchive"
+        }
+      ]
+    },
+    {
+      "ecosystem": "rust",
+      "name": "yoke-derive",
+      "version": "0.8.4",
+      "declaredLicense": "Unicode-3.0",
+      "revision": "a59ab860d4bda548e94dfbf992d87fe1f761bc55",
+      "repository": "https://github.com/unicode-org/icu4x",
+      "files": [
+        {
+          "path": "rust/yoke-derive@0.8.4/LICENSE",
+          "sha256": "f367c1b8e1aa262435251e442901da4607b4650e0e63a026f5044473ecfb90f2",
+          "bytes": 2195,
+          "originPath": "LICENSE",
+          "originKind": "cargoArchive"
+        }
+      ]
+    },
+    {
+      "ecosystem": "rust",
+      "name": "zerofrom",
+      "version": "0.1.8",
+      "declaredLicense": "Unicode-3.0",
+      "revision": "e9575f7e4b5aeddfeeb87ada5d3e715950e8233e",
+      "repository": "https://github.com/unicode-org/icu4x",
+      "files": [
+        {
+          "path": "rust/zerofrom@0.1.8/LICENSE",
+          "sha256": "f367c1b8e1aa262435251e442901da4607b4650e0e63a026f5044473ecfb90f2",
+          "bytes": 2195,
+          "originPath": "LICENSE",
+          "originKind": "cargoArchive"
+        }
+      ]
+    },
+    {
+      "ecosystem": "rust",
+      "name": "zerofrom-derive",
+      "version": "0.1.8",
+      "declaredLicense": "Unicode-3.0",
+      "revision": "ce235d80cf7cbd028e8bd59920420e1203b205b3",
+      "repository": "https://github.com/unicode-org/icu4x",
+      "files": [
+        {
+          "path": "rust/zerofrom-derive@0.1.8/LICENSE",
+          "sha256": "f367c1b8e1aa262435251e442901da4607b4650e0e63a026f5044473ecfb90f2",
+          "bytes": 2195,
+          "originPath": "LICENSE",
+          "originKind": "cargoArchive"
+        }
+      ]
+    },
+    {
+      "ecosystem": "rust",
+      "name": "zerotrie",
+      "version": "0.2.5",
+      "declaredLicense": "Unicode-3.0",
+      "revision": "a14f2dad852be26bad277ae704abf27a15cbfed1",
+      "repository": "https://github.com/unicode-org/icu4x",
+      "files": [
+        {
+          "path": "rust/zerotrie@0.2.5/LICENSE",
+          "sha256": "f367c1b8e1aa262435251e442901da4607b4650e0e63a026f5044473ecfb90f2",
+          "bytes": 2195,
+          "originPath": "LICENSE",
+          "originKind": "cargoArchive"
+        }
+      ]
+    },
+    {
+      "ecosystem": "rust",
+      "name": "zerovec",
+      "version": "0.11.8",
+      "declaredLicense": "Unicode-3.0",
+      "revision": "c56bbb5a7b47409759113903764c456f13b418e5",
+      "repository": "https://github.com/unicode-org/icu4x",
+      "files": [
+        {
+          "path": "rust/zerovec@0.11.8/LICENSE",
+          "sha256": "f367c1b8e1aa262435251e442901da4607b4650e0e63a026f5044473ecfb90f2",
+          "bytes": 2195,
+          "originPath": "LICENSE",
+          "originKind": "cargoArchive"
+        }
+      ]
+    },
+    {
+      "ecosystem": "rust",
+      "name": "zerovec-derive",
+      "version": "0.11.6",
+      "declaredLicense": "Unicode-3.0",
+      "revision": "898d79c69f37da7b45a15a5714663c9b59b3d928",
+      "repository": "https://github.com/unicode-org/icu4x",
+      "files": [
+        {
+          "path": "rust/zerovec-derive@0.11.6/LICENSE",
+          "sha256": "f367c1b8e1aa262435251e442901da4607b4650e0e63a026f5044473ecfb90f2",
+          "bytes": 2195,
+          "originPath": "LICENSE",
+          "originKind": "cargoArchive"
+        }
+      ]
+    },
+    {
+      "ecosystem": "rust",
+      "name": "zmij",
+      "version": "1.0.23",
+      "declaredLicense": "MIT",
+      "revision": "7b7cc48b58028e8af7be87e94c0c1c8936f1a57c",
+      "repository": "https://github.com/dtolnay/zmij",
+      "files": [
+        {
+          "path": "rust/zmij@1.0.23/LICENSE-MIT",
+          "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+          "bytes": 1023,
+          "originPath": "LICENSE-MIT",
+          "originKind": "cargoArchive"
+        }
+      ]
+    },
+    {
+      "ecosystem": "swift",
+      "name": "eventsource",
+      "version": "1.5.1",
+      "declaredLicense": null,
+      "revision": "86b5096ac59ab46e66bd1f6377c604bc1dab0bc2",
+      "repository": "https://github.com/mattt/eventsource.git",
+      "files": [
+        {
+          "path": "swift/eventsource@1.5.1/LICENSE.md",
+          "sha256": "2f9b695627d569a3ce452b2c03fdd34310df78c8ea94edfafd9ce38381e5b502",
+          "bytes": 1062,
+          "originPath": "LICENSE.md",
+          "originKind": "swiftCheckout"
+        }
+      ]
+    },
+    {
+      "ecosystem": "swift",
+      "name": "swift-atomics",
+      "version": "1.3.1",
+      "declaredLicense": null,
+      "revision": "0442cb5a3f98ab802acb777929fdb446bda11a34",
+      "repository": "https://github.com/apple/swift-atomics.git",
+      "files": [
+        {
+          "path": "swift/swift-atomics@1.3.1/LICENSE.txt",
+          "sha256": "770af8291f708538d8ff885a0bbc4e045cd700531741c4f99528d435c14d7f55",
+          "bytes": 11751,
+          "originPath": "LICENSE.txt",
+          "originKind": "swiftCheckout"
+        }
+      ]
+    },
+    {
+      "ecosystem": "swift",
+      "name": "swift-collections",
+      "version": "1.7.1",
+      "declaredLicense": null,
+      "revision": "98ef3c98609a1e31b7e157b5b619579001a789d6",
+      "repository": "https://github.com/apple/swift-collections.git",
+      "files": [
+        {
+          "path": "swift/swift-collections@1.7.1/LICENSE.txt",
+          "sha256": "770af8291f708538d8ff885a0bbc4e045cd700531741c4f99528d435c14d7f55",
+          "bytes": 11751,
+          "originPath": "LICENSE.txt",
+          "originKind": "swiftCheckout"
+        }
+      ]
+    },
+    {
+      "ecosystem": "swift",
+      "name": "swift-log",
+      "version": "1.15.1",
+      "declaredLicense": null,
+      "revision": "9c6fb14227f55d8f711ce3847dc2f419fb0ecacb",
+      "repository": "https://github.com/apple/swift-log.git",
+      "files": [
+        {
+          "path": "swift/swift-log@1.15.1/LICENSE.txt",
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+          "bytes": 11358,
+          "originPath": "LICENSE.txt",
+          "originKind": "swiftCheckout"
+        },
+        {
+          "path": "swift/swift-log@1.15.1/NOTICE.txt",
+          "sha256": "879b241d49b407215a0ad8e1c6a71c358d7b29591b090cf379d37a5f50cff918",
+          "bytes": 1324,
+          "originPath": "NOTICE.txt",
+          "originKind": "swiftCheckout"
+        }
+      ]
+    },
+    {
+      "ecosystem": "swift",
+      "name": "swift-nio",
+      "version": "2.103.0",
+      "declaredLicense": null,
+      "revision": "21de5f08c1a166a6dd293d0e587ad977bf8dac5d",
+      "repository": "https://github.com/apple/swift-nio.git",
+      "files": [
+        {
+          "path": "swift/swift-nio@2.103.0/LICENSE.txt",
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+          "bytes": 11358,
+          "originPath": "LICENSE.txt",
+          "originKind": "swiftCheckout"
+        },
+        {
+          "path": "swift/swift-nio@2.103.0/NOTICE.txt",
+          "sha256": "d25ed2452b3476c342082d11e4e8bf5459174d2836124f842b499850bcebc50e",
+          "bytes": 3266,
+          "originPath": "NOTICE.txt",
+          "originKind": "swiftCheckout"
+        },
+        {
+          "path": "swift/swift-nio@2.103.0/Sources/CNIOLLHTTP/LICENSE",
+          "sha256": "ebca854e0134cd256d673627c20499f42577eb74bacf08b9f25b626a73c91277",
+          "bytes": 1105,
+          "originPath": "Sources/CNIOLLHTTP/LICENSE",
+          "originKind": "swiftCheckout"
+        }
+      ]
+    },
+    {
+      "ecosystem": "swift",
+      "name": "swift-sdk",
+      "version": "0.12.1",
+      "declaredLicense": null,
+      "revision": "a0ae212ebf6eab5f754c3129608bc5557637e605",
+      "repository": "https://github.com/modelcontextprotocol/swift-sdk.git",
+      "files": [
+        {
+          "path": "swift/swift-sdk@0.12.1/LICENSE",
+          "sha256": "0382b0057770ca05e9c350a50aa3b1c1fea84da0bc81d723bf00b9aa841be58a",
+          "bytes": 12227,
+          "originPath": "LICENSE",
+          "originKind": "swiftCheckout"
+        }
+      ]
+    },
+    {
+      "ecosystem": "swift",
+      "name": "swift-system",
+      "version": "1.8.1",
+      "declaredLicense": null,
+      "revision": "869129b7bf4ecc57b97d0193ad29690ca2134750",
+      "repository": "https://github.com/apple/swift-system.git",
+      "files": [
+        {
+          "path": "swift/swift-system@1.8.1/LICENSE.txt",
+          "sha256": "2245a990b635558be210fb3eb4f8a6f7a49aebc0fefbf5859146a65ddc7ddcf3",
+          "bytes": 11750,
+          "originPath": "LICENSE.txt",
+          "originKind": "swiftCheckout"
+        }
+      ]
+    }
+  ],
+  "originsFile": "origins.json"
+}

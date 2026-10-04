@@ -1,0 +1,9 @@
+/target/
+/build/
+/.superpowers/
+/.DS_Store
+/apps/macos/.build/
+/apps/macos/build/
+/docs/evidence/
+**/__pycache__/
+*.py[cod]
