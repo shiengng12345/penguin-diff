@@ -92,6 +92,8 @@
 
 ### 根与作用域
 
+env.js 输入允许带有常见的 YAML/ConfigMap 外壳，例如 `data` 下的 `env.js: |` block scalar。比较器只提取 `env.js` 的 literal block 后交给静态 JavaScript 解析；不执行 YAML、JavaScript，也不为了补齐不完整语法而猜测或自动修复。YAML 外壳中的其它字段不会进入比较结果。
+
 App 和 MCP `env_compare` 默认一次比较两份文件中的所有顶层变量，按变量名称配对，`env`、`happy` 等同时进入同一批结果。界面“比较范围”默认“全部变量”，不要求逐个运行；显示 `env.x`、`env.y`、`happy.x`，保留所属变量以避免同名字段混淆。“刷新变量列表”从实际静态解析取得候选，保留已选的全部变量范围，完成后提示“变量列表已更新”；仍可分别选择对应的单一命名变量或最终 `module.exports`。MCP 的 rootA/rootB 默认 `*`，需要单变量时明确提供两侧根名。
 
 例：`var env={y:2,x:3}; var happy={x:y};` 中，`y` 没有独立声明，`happy.x` 为 Unknown／无法比较，不会把它当成 `env.y` 或正常缺失；写成 `x:env.y` 才能静态确认值2。全变量模式仍保留已知 `env` 的结果及不完整诊断。 默认结果筛选只显示差异与无法比较；要同时看到相同的 `env.y`，把“状态”选为“全部”。[当前新包实际界面](evidence/2026-10-03-ipc-lifecycle-final-gui-proof.json)已核对两种筛选，以及 `env.y` 引用的已知值。

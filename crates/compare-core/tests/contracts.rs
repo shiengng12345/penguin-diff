@@ -60,6 +60,29 @@ fn js_sample_has_the_hand_checked_seven_results() {
 }
 
 #[test]
+fn env_js_can_be_extracted_from_yaml_block_scalar() {
+    let wrapped = "apiVersion: v1\ndata:\n  env.js: |\n    var env={a:1,nested:{x:true}};\n  other.txt: retained\n";
+    let result = request(json!({
+        "op": "compare",
+        "kind": "js",
+        "a": wrapped,
+        "b": "var env={a:1,nested:{x:true}};",
+        "rootA": "env",
+        "rootB": "env"
+    }));
+    assert_eq!(result["ok"], true, "{result}");
+    assert_eq!(result["summary"]["same"], 2);
+    assert_eq!(result["complete"], true);
+    let inspected = request(json!({"op": "inspectJs", "source": wrapped}));
+    assert_eq!(inspected["ok"], true, "{inspected}");
+    assert!(inspected["roots"]
+        .as_array()
+        .unwrap()
+        .iter()
+        .any(|root| root == "env"));
+}
+
+#[test]
 fn unknown_runtime_expressions_never_become_same() {
     let source = "var env={HOST:getHost(),TOKEN:process.env.API_TOKEN};module.exports=env;";
     let result = request(

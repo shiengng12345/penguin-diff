@@ -30,6 +30,12 @@ pub struct Parsed {
 }
 
 pub fn parse(source: &str) -> Result<Parsed, Error> {
+    // SRE exports are often Kubernetes-style YAML documents whose `env.js`
+    // value is a literal block scalar.  Keep the wrapper out of the JavaScript
+    // parser, while retaining blank lines and indentation so diagnostics still
+    // point at the user's original line and column.
+    let normalized_source = extract_yaml_js_block(source);
+    let source = normalized_source.as_deref().unwrap_or(source);
     let allocator = Allocator::default();
     // process() supplies an 8 MiB thread stack. Leave 2 MiB for diagnostics,
     // bounded work between token advances, and returning through the grammar.
@@ -133,6 +139,64 @@ pub fn parse(source: &str) -> Result<Parsed, Error> {
         complete: evaluator.complete,
         warnings: evaluator.warnings,
     })
+}
+
+fn extract_yaml_js_block(source: &str) -> Option<String> {
+    let lines: Vec<&str> = source.split_inclusive('\n').collect();
+    let mut candidates = Vec::new();
+    for (index, raw_line) in lines.iter().enumerate() {
+        let line = line_without_ending(raw_line);
+        let indent = line.len() - line.trim_start_matches([' ', '\t']).len();
+        let rest = &line[indent..];
+        let Some(colon) = rest.find(':') else { continue };
+        let key = rest[..colon]
+            .trim()
+            .trim_matches(['\'', '"'])
+            .to_string();
+        let value = rest[colon + 1..].trim_start();
+        if key.ends_with(".js") && value.starts_with('|') {
+            candidates.push((key, index, indent));
+        }
+    }
+
+    let candidate = candidates
+        .iter()
+        .find(|(key, _, _)| key == "env.js")
+        .or_else(|| (candidates.len() == 1).then(|| &candidates[0]))?;
+    let (_, key_line, key_indent) = candidate;
+    let content_start = *key_line + 1;
+    let mut content_end = content_start;
+    let mut has_content = false;
+    for (index, raw_line) in lines.iter().enumerate().skip(content_start) {
+        let line = line_without_ending(raw_line);
+        if line.trim().is_empty() {
+            content_end = index + 1;
+            continue;
+        }
+        let indent = line.len() - line.trim_start_matches([' ', '\t']).len();
+        if indent <= *key_indent {
+            break;
+        }
+        has_content = true;
+        content_end = index + 1;
+    }
+    if !has_content {
+        return None;
+    }
+
+    let mut normalized = String::new();
+    for _ in 0..content_start {
+        normalized.push('\n');
+    }
+    for line in &lines[content_start..content_end] {
+        normalized.push_str(line);
+    }
+    Some(normalized)
+}
+
+fn line_without_ending(line: &str) -> &str {
+    let line = line.strip_suffix('\n').unwrap_or(line);
+    line.strip_suffix('\r').unwrap_or(line)
 }
 
 struct Evaluator<'a> {

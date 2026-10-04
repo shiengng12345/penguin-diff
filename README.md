@@ -12,7 +12,7 @@
 
 开发构建位置：`build/Config Compare.app`。env.js 默认一次比较整份文件中的多个变量，按名称配对，例如同时比较 `env` 和 `happy`，也保留独立的 CommonJS 导出；命名对象的导出别名按对象身份去重。也可在“比较范围”选择单一变量或 `module.exports`；刷新后变量消失会明确提示，保留选择供你更正。YAML 只需要 A 输入。快捷键 `⌘ Return` 运行，`Esc` 停止。
 
-env.js 的结果直接显示变量及字段，例如 `env.x`、`happy.x`、`env.items[0]`；单一变量模式显示 `x`、`auth.host`、`items[0]`。含点号的属性保留 `["a.b"]` 形式以区分嵌套变量，报告保留完整机器路径。`var happy={x:y}` 中的 `y` 若未独立声明，会标为无法比较；引用已有对象字段应写 `env.y`。
+env.js 的结果直接显示变量及字段，例如 `env.x`、`happy.x`、`env.items[0]`；单一变量模式显示 `x`、`auth.host`、`items[0]`。含点号的属性保留 `["a.b"]` 形式以区分嵌套变量，报告保留完整机器路径。`var happy={x:y}` 中的 `y` 若未独立声明，会标为无法比较；引用已有对象字段应写 `env.y`。输入也可以是 Kubernetes/ConfigMap 风格的 YAML 外壳（例如 `data.env.js: |`）；工具只提取该 literal block，再按静态 JavaScript 比较，不执行 YAML 或 JavaScript。
 
 设置占满整个窗口，左上角“返回工具”和 Esc 返回原输入/结果。可选择简体中文或 English、本机显示名称、4 个中性内置图标、奶油白浅色主题和强调色。
 
